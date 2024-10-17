@@ -22,9 +22,9 @@ layers:
   - G
   - $$mdi:arrow-down-bold$$
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: J, h: RIGHT GUI}
+  - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - L
+  - {t: L, h: RIGHT GUI}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
