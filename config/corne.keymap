@@ -137,7 +137,7 @@
 
             bindings = <
 &kp TAB             &ht_number N1 Q  &ht_number N2 W   &ht_number N3 E       &ht_number N4 R     &ht_number N5 T     &kp UP_ARROW     &ht_number N6 Y       &ht_number N7 U    &ht_number N8 I           &ht_number N9 O  &ht_number N0 P  &kp BSPC
-&td0                &mt LEFT_ALT A   &mt LEFT_GUI S    &mt LEFT_SHIFT D      &mt LEFT_CONTROL F  &kp G               &kp DOWN_ARROW   &mt RIGHT_CONTROL H   &mt RIGHT_GUI J    &mt RIGHT_SHIFT K         &kp L            &kp SEMI         &kp SQT
+&td0                &mt LEFT_ALT A   &mt LEFT_GUI S    &mt LEFT_SHIFT D      &mt LEFT_CONTROL F  &kp G               &kp DOWN_ARROW   &mt RIGHT_CONTROL H   &mt RIGHT_ALT J    &mt RIGHT_SHIFT K         &mt RIGHT_GUI L  &kp SEMI         &kp SQT
 &ht_long LCTRL ESC  &kp Z            &kp X             &kp C                 &kp V               &mt LEFT_SHIFT B    &kp LEFT_ARROW   &kp N                 &kp M              &kp COMMA                 &kp DOT          &kp FSLH         &ht_long CAPSLOCK DELETE
                                      &kp C_PLAY_PAUSE  &ht_layer LEFT_ALT 5  &lt 1 ENTER         &lt 3 SPACE         &kp RIGHT_ARROW  &lt 3 SPACE           &lt 2 SPACE        &ht_long RIGHT_GUI SPACE
                                                                                                                      &kp ENTER
