@@ -14,7 +14,7 @@ layers:
   - {t: O, h: '9'}
   - {t: P, h: '0'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -42,11 +42,11 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: FN}
   - PLAY PAUSE
   - {t: System, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-return$$', h: lower}
+  - {t: '$$mdi:keyboard-return$$', h: raise}
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-space$$', h: FN}
-  - {t: '$$mdi:keyboard-space$$', h: raise}
+  - {t: '$$mdi:keyboard-space$$', h: lower}
   - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   lower:
@@ -91,11 +91,11 @@ layers:
   - KP DOT
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: default, h: toggle, type: held}
+  - {t: default, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - KP NUMLOCK
-  - KP ENTER
+  - {t: KP ENTER, type: held}
   - KP 0
   - $$mdi:mouse-left-click-outline$$
   raise:
@@ -140,11 +140,11 @@ layers:
   - '~'
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: lower, h: toggle}
+  - {t: lower, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:power-standby$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   FN:
